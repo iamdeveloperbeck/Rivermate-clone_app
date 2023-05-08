@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: sans-serif;
+}
+
+body {
+    color: #242423;
+    background-color: #fff5ed;
+    font-family: Greycliffcf, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+@font-face {
+    font-family: 'Greycliffcf';
+    src: url('https://uploads-ssl.webflow.com/627275b349f60885b6c33689/628f56475c25a7858e13cae9_GreycliffCF-Regular.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/627275b349f60885b6c33689/628f5647a1393bb9c272a6ad_GreycliffCF-Regular.eot') format('embedded-opentype'), url('https://uploads-ssl.webflow.com/627275b349f60885b6c33689/628f56472f9f4e06f2febc91_GreycliffCF-Regular.woff') format('woff'), url('https://uploads-ssl.webflow.com/627275b349f60885b6c33689/628f56473417e1ea29cd7277_GreycliffCF-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Greycliffcf';
+    src: url('https://uploads-ssl.webflow.com/627275b349f60885b6c33689/628f564838105f056cafb900_GreycliffCF-Heavy.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/627275b349f60885b6c33689/628f56482d28935967fdbf0d_GreycliffCF-Heavy.eot') format('embedded-opentype'), url('https://uploads-ssl.webflow.com/627275b349f60885b6c33689/628f56483417e1480fcd727a_GreycliffCF-Heavy.woff') format('woff'), url('https://uploads-ssl.webflow.com/627275b349f60885b6c33689/628f56488f04ca6993d196f7_GreycliffCF-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Greycliffcf';
+    src: url('https://uploads-ssl.webflow.com/627275b349f60885b6c33689/628f564962b2f3abbc7804e8_GreycliffCF-ExtraBold.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/627275b349f60885b6c33689/628f56495d0e7d0820a84bb7_GreycliffCF-Bold.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/627275b349f60885b6c33689/628f564926f025589f95e755_GreycliffCF-ExtraBold.eot') format('embedded-opentype'), url('https://uploads-ssl.webflow.com/627275b349f60885b6c33689/628f5649f2037f284760b330_GreycliffCF-Bold.eot') format('embedded-opentype'), url('https://uploads-ssl.webflow.com/627275b349f60885b6c33689/628f56497bd3c9b9ac5e56d1_GreycliffCF-ExtraBold.woff') format('woff'), url('https://uploads-ssl.webflow.com/627275b349f60885b6c33689/628f564962b2f324a77804e9_GreycliffCF-Bold.woff') format('woff'), url('https://uploads-ssl.webflow.com/627275b349f60885b6c33689/628f5649fa4a724613342d48_GreycliffCF-ExtraBold.ttf') format('truetype'), url('https://uploads-ssl.webflow.com/627275b349f60885b6c33689/628f56495670b552ab09bbc0_GreycliffCF-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Greycliffcf';
+    src: url('https://uploads-ssl.webflow.com/627275b349f60885b6c33689/628f5649352b15a48592da5a_GreycliffCF-DemiBold.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/627275b349f60885b6c33689/628f56496736c7efa606c37c_GreycliffCF-DemiBold.eot') format('embedded-opentype'), url('https://uploads-ssl.webflow.com/627275b349f60885b6c33689/628f564906cabf220a350448_GreycliffCF-DemiBold.woff') format('woff'), url('https://uploads-ssl.webflow.com/627275b349f60885b6c33689/628f564917825c2f2e34773b_GreycliffCF-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Reey';
+    src: url('https://uploads-ssl.webflow.com/627275b349f60885b6c33689/62923f16cc46db5358a1848a_Reey-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
